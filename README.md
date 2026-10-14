@@ -1,4 +1,4 @@
-# Prévision de température avec un modèle LSTM
+# Prévision de série temporelle avec un modèle LSTM
 
 Projet de séries temporelles fondé sur le notebook original de prévision météorologique et le jeu de données **Jena Climate**. Le modèle apprend à estimer la température (`T (degC)`) à partir de séquences d'observations météorologiques.
 
