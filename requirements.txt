@@ -1,0 +1,7 @@
+# Tested project stack should use Python 3.10-3.12.
+# Install with: python -m pip install -r requirements.txt
+numpy>=1.24,<3
+pandas>=2.0,<4
+matplotlib>=3.7,<4
+tensorflow>=2.15,<3
+pytest>=7,<9
