@@ -1,0 +1,31 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Test, lint and type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter local state and generated checkpoints
+.ipynb_checkpoints/
+*.weights.h5
+*.keras
+*.h5
+
+# Downloaded data and generated outputs (keep large/generated files out of Git)
+data/raw/
+data/processed/
+outputs/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
