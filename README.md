@@ -1,8 +1,6 @@
 # Prévision de série temporelle avec un modèle LSTM
 
-Projet de séries temporelles fondé sur le notebook original de prévision météorologique et le jeu de données **Jena Climate**. Le modèle apprend à estimer la température (`T (degC)`) à partir de séquences d'observations météorologiques.
-
-> **État du dépôt :** la première version transforme progressivement le notebook en modules Python documentés. Les résultats numériques ne sont pas préannoncés : ils doivent être produits en exécutant le pipeline dans un environnement compatible.
+Ce projet de séries temporelles utilise le jeu de données **Jena Climate** et se base le le notebook original. Le modèle apprend à estimer la température (`T (degC)`) à partir de séquences d'observations météorologiques.
 
 ## Objectif
 
@@ -73,7 +71,7 @@ Avec le jeu Jena Climate d'origine, les observations sont espacées de dix minut
 
 ## Point de vigilance sur la séparation temporelle
 
-Le notebook d'origine construit les cibles d'entraînement à partir d'une tranche qui peut dépasser la frontière d'entraînement. Dans cette version modulaire, les séquences d'entraînement et leurs cibles doivent rester entièrement du côté entraînement ; les séquences de validation et leurs cibles restent du côté validation. Cette correction évite d'utiliser des cibles de validation pour entraîner le modèle. Elle peut donc modifier le nombre d'exemples par rapport au notebook original.
+Dans cette version modulaire, les séquences d'entraînement et leurs cibles doivent rester entièrement du côté entraînement ; les séquences de validation et leurs cibles restent du côté validation. Cette correction évite d'utiliser des cibles de validation pour entraîner le modèle. Elle peut donc modifier le nombre d'exemples par rapport au notebook original.
 
 ## Exécuter le pipeline
 
